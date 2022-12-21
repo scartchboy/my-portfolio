@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_profile/constants/images_constants.dart';
+import 'package:flutter_profile/constants/string_constants.dart';
 
 class MyInfo extends StatelessWidget {
   const MyInfo({
@@ -16,15 +18,15 @@ class MyInfo extends StatelessWidget {
             Spacer(flex: 2),
             CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage("assets/images/IMG_7344.jpg"),
+              backgroundImage: AssetImage(AppImages.profileImage),
             ),
             Spacer(),
             Text(
-              "Abu Anwar",
+              "${Strings.firstName}  ${Strings.lastName}",
               style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(
-              "Flutter Developer & Founder of \n The Flutter Way",
+              Strings.designation,
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.w200,

@@ -11,23 +11,35 @@ class Coding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      // crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Divider(),
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
             "Coding",
-            style: Theme.of(context).textTheme.subtitle2,
+            style: TextStyle(
+              fontSize: 40,
+              color: Colors.white,
+              decoration: TextDecoration.underline,
+            ),
           ),
         ),
         AnimatedLinearProgressIndicator(
-          percentage: 0.7,
+          percentage: 0.90,
+          label: "Java",
+        ),
+        AnimatedLinearProgressIndicator(
+          percentage: 0.85,
           label: "Dart",
         ),
         AnimatedLinearProgressIndicator(
-          percentage: 0.68,
+          percentage: 0.70,
           label: "Python",
+        ),
+        AnimatedLinearProgressIndicator(
+          percentage: 0.58,
+          label: "JavaScript",
         ),
         AnimatedLinearProgressIndicator(
           percentage: 0.9,
@@ -36,10 +48,6 @@ class Coding extends StatelessWidget {
         AnimatedLinearProgressIndicator(
           percentage: 0.75,
           label: "CSS",
-        ),
-        AnimatedLinearProgressIndicator(
-          percentage: 0.58,
-          label: "JavaScript",
         ),
       ],
     );
