@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/constants.dart';
-import 'package:flutter_profile/constants/list_constants.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:shaurya_portfolio/constants.dart';
+import 'package:shaurya_portfolio/constants/list_constants.dart';
 
-import 'details_testimonails.dart';
+import 'details_testimonials.dart';
 import 'my_info.dart';
 
 class SideMenu extends StatelessWidget {
@@ -24,7 +24,7 @@ class SideMenu extends StatelessWidget {
                 child: Column(
                   children: [
                     DetailsTestiMonials(
-                      title: "about ",
+                      title: "",
                       details: ListConstants.personalDetails,
                     ),
                     Divider(),

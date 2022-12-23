@@ -1,7 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/constants/images_constants.dart';
-import 'package:flutter_profile/responsive.dart';
+import 'package:shaurya_portfolio/constants/images_constants.dart';
+import 'package:shaurya_portfolio/responsive.dart';
 
 import '../../../constants.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/constants/images_constants.dart';
-import 'package:flutter_profile/constants/string_constants.dart';
+import 'package:shaurya_portfolio/constants/images_constants.dart';
+import 'package:shaurya_portfolio/constants/string_constants.dart';
 
 class MyInfo extends StatelessWidget {
   const MyInfo({

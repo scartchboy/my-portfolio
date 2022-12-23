@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/screens/main/main_screen.dart';
+import 'package:shaurya_portfolio/screens/main/main_screen.dart';
 
 import '../../constants.dart';
 import '../main/components/coding.dart';
-import '../main/components/knowledges.dart';
 import '../main/components/skills.dart';
-import 'components/heighlights.dart';
 import 'components/home_banner.dart';
 import 'components/my_projects.dart';
-import 'components/recommendations.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -18,9 +15,11 @@ class HomeScreen extends StatelessWidget {
     return MainScreen(
       children: [
         HomeBanner(),
-        Skills(),
         SizedBox(height: defaultPadding),
         Coding(),
+        SizedBox(height: defaultPadding),
+        Skills(),
+        SizedBox(height: defaultPadding),
         MyProjects(),
         // Knowledges(),
         // HighLightsInfo(),

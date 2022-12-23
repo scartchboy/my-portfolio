@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_profile/components/animated_progress_indicator.dart';
+import 'package:shaurya_portfolio/components/animated_progress_indicator.dart';
 
 import '../../../constants.dart';
 
@@ -44,8 +44,8 @@ class Skills extends StatelessWidget {
             SizedBox(width: defaultPadding),
             Expanded(
               child: AnimatedCircularProgressIndicator(
-                percentage: 0.85,
-                label: "Firebase",
+                percentage: 0.70,
+                label: "DSA",
               ),
             ),
             SizedBox(width: defaultPadding),
